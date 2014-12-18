@@ -2,7 +2,7 @@
 title: "CodeBook.md"
 author: "Michele Carboni"
 date: "Thursday, December 18, 2014"
-output: html_document
+
 ---
 Feature Selection 
 =================
