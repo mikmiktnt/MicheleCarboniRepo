@@ -11,6 +11,8 @@ The data set is available at
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
+The script need to be copied in your working directory to work or the wd need to be set in the dir where the script is saved
+
 ## Script description 
 
 The script does the following:

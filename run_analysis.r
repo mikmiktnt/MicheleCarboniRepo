@@ -65,7 +65,7 @@ MergedFinal<-Merged %>% ddply(c("Subject", "Test", "variable"), summarise,mean=m
 
 #12.spread the MergedFinal df after combine Test and Measurement (into Measurement)
 # and remove the Test Variable. The df is then exported as a tab space separeted
-MergedFinal<-MergedFinal %>% mutate(Measurement=paste(Measurement, Test, sep="_")) %>%
+MergedFinal<-MergedFinal %>% mutate(Measurement=paste(Measurement, Test, sep="-")) %>%
              select(-Test) %>%   
              spread(Measurement, mean) 
 
