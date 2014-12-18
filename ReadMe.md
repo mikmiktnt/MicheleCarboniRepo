@@ -13,6 +13,9 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 The script need to be copied in your working directory to work or the wd need to be set in the dir where the script is saved
 
+The final data set (MergedFinal) is saved in the "./UCI HAR Dataset" dir as 
+FinalData.txt (tab separated)
+
 ## Script description 
 
 The script does the following:
